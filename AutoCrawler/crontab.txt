@@ -1,0 +1,14 @@
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_LongTan_InsertMySQL_Charles.py
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_Jhongli_InsertMySQL_Charles.py
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_Dayuau_InsertMySQL_Charles.py
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_Guanyin_InsertMySQL_Charles.py
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_Pingzhen_InsertMySQL_Charles.py
+  */20 8-22 * * * /usr/local/bin/python3 /Users/charles/Desktop/Project/Python_Crawler/Automatically_Fetch_Taoyuan_InsertMySQL_Charles.py
